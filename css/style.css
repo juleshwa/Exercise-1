@@ -140,7 +140,7 @@ html {
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 2rem;
 }
 
 .card {
@@ -153,6 +153,8 @@ html {
 .box-image {
   display: block;
   width: 100%;
+  object-fit: cover;
+  height: 75%;
 }
 
 .overlay {
@@ -183,8 +185,9 @@ html {
 }
 
 .card-head {
-  padding: 1rem;
+  padding: 0.5;
   background-color: #008cba;
+  height: 25%;
 }
 
 /* Section Two */
@@ -200,5 +203,47 @@ html {
 
 #work {
   height: 500px;
-  background-color: #bbb;
+  background-color: rgba(187, 187, 187, 0.432);
+}
+
+#contact {
+  height: 500px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 780px) {
+  .nav-links {
+    display: none;
+  }
+
+  .brand {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .section-card {
+    display: block;
+  }
+
+  .card {
+    margin-bottom: 3rem;
+  }
+
+  .section-two {
+    display: block;
+  }
+
+  .section-text {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+  }
+
+  .box-text {
+    padding: 0.5rem 1rem;
+    border: 2px solid #bbb;
+  }
 }
