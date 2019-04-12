@@ -221,6 +221,10 @@ html {
   padding: 0;
 }
 
+.reduce {
+  min-height: 20%;
+}
+
 /* #Work */
 
 .box-work {
