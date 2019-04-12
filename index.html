@@ -22,20 +22,30 @@
       <div class="contact-icon">
         <ul>
           <li>
-            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.facebook.com/j.firebirds" target="_blank"
+              ><i class="fab fa-facebook-square"></i
+            ></a>
           </li>
           <li>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/juleshwa" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
           </li>
           <li>
-            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="https://github.com/juleshwa" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
           </li>
           <li>
-            <a href="#"><i class="fas fa-envelope-square"></i></a>
+            <a href="mailto:juleshwa@gmail.com"
+              ><i class="fas fa-envelope-square"></i
+            ></a>
           </li>
         </ul>
       </div>
     </div>
+
+    <!-- Header -->
     <div class="header">
       <div class="brand">
         <a href="#">JULESHWA</a>
@@ -43,16 +53,16 @@
 
       <div class="nav-links">
         <a href="#">ABOUT ME</a>
-        <a href="#works">WORKS</a>
+        <a href="#works">MY WORKS</a>
         <a href="#contact">CONTACT</a>
       </div>
     </div>
 
     <!-- Section About Me -->
 
-    <div class="section gray">
+    <div class="section">
       <div class="section-head">
-        <h2><span class="black">ABOUT ME</span></h2>
+        <h2><span class="white">ABOUT ME</span></h2>
       </div>
       <div class="section-card grid">
         <div class="card">
@@ -128,62 +138,83 @@
 
     <div class="section-image reduce"></div>
 
-    <!-- Section Two -->
+    <!-- Section Work -->
 
     <div class="section reset">
       <div class="section-two grid-two">
         <div id="works" class="white">
           <div class="work-head">
-            <h2><span>WORKS</span></h2>
+            <h2><span>MY WORKS</span></h2>
           </div>
-
           <div class="work-grid">
-            <div class="box-1">
-              <img src="/assets/tiab.jpg" alt="Novel" />
-              <div class="overlay-two">
-                <div class="intext-two">
-                  <h3>Content Writer</h3>
+            <div class="box-work">
+              <div class="box-1">
+                <img src="/assets/tiab.jpg" alt="Novel" />
+                <div class="overlay-two">
+                  <div class="intext-two">
+                    <h3>Content Writer</h3>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="box-2">
-              <img src="/assets/revisions.jpg" alt="Editing" />
-              <div class="overlay-two">
-                <div class="intext-two">
-                  <h3>Content Editor</h3>
+              <div class="box-2">
+                <img src="/assets/social-media.jpg" alt="Social Media" />
+                <div class="overlay-two">
+                  <div class="intext-two">
+                    <h3>Digital Marketing</h3>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div class="box-3">
-              <img src="/assets/social-media.jpg" alt="Social Media" />
-              <div class="overlay-two">
-                <div class="intext-two">
-                  <h3>Digital Marketing</h3>
-                </div>
-              </div>
-            </div>
-            <div class="box-4">
-              <img src="/assets/meme.jpg" alt="Coding" />
-              <div class="overlay-two">
-                <div class="intext-two">
-                  <h3>Junior Coder</h3>
+              <div class="box-3">
+                <img src="/assets/meme.jpg" alt="Coding" />
+                <div class="overlay-two">
+                  <div class="intext-two">
+                    <h3>Junior Coder</h3>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+        <!-- Section Contact Form-->
+
         <div id="contact" class="white">
           <div class="contact-head">
             <h2><span>CONTACT</span></h2>
           </div>
+
+          <form action="" class="form-contact" method="post">
+            <input
+              type="text"
+              name="name"
+              class="form-input"
+              placeholder="Your Name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              class="form-input"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              class="form-input"
+              name="message"
+              rows="5"
+              placeholder="Your Message"
+            ></textarea>
+            <button type="submit" class="btn-submit">Submit</button>
+          </form>
         </div>
       </div>
     </div>
 
+    <!-- Footer -->
+
     <div class="footer">
       <div class="footer-text">
-        <span class="copyright">Copyright 2019</span>
+        <span class="copyright">&copy; Copyright Juleshwa 2019</span>
       </div>
     </div>
   </body>
